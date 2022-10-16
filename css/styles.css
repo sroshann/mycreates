@@ -85,10 +85,10 @@ body {
   transition: .4s; /* for light mode animation */
 }
 
-h1, h2, h3 {
+/* h1, h2, h3 {
   color: var(--title-color);
   font-weight: var(--font-semibold);
-}
+} */
 
 ul {
   list-style: none;
@@ -161,14 +161,215 @@ img {
 /*=============== HEADER & NAV===============*/
 
 
+.header {
+
+  width: 100%;
+  height: 85px;
+  background: #f1f1f1;
+  color: black;
+
+}
+
+.section1{
+
+  width: 30%;
+  height: 85px;
+  float: left;
+  display: grid;
+  place-items: center;
+
+}
+
+.section2{
+
+  width: 45%;
+  height: 85px;
+  float: right;
+  display: grid;
+  place-items: center;
+
+}
+
+.logo{
+
+  width: 300px;
+  height: 50px;
+
+}
+
+.image{
+
+  width: 30%;
+  height: 50px;
+  float: left;
+
+}
+
+.image img{
+
+  margin-left: 20px;
+
+}
+
+.red{
+
+  color: #ff1b1b;
+
+}
+
+.text{
+
+  width: 70%;
+  height: 50px;
+  float: left;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  font-size: 22px;
+
+}
+
+/* .menubar{
+
+  width: 100%;
+
+} */
+
+.menu{
+
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 15px;
+
+}
+
+.menu li{
+
+  float: left;
+  padding: 0px 15px;
+
+}
+
+.menu li:hover{
+
+  color: #ff1b1b;
+  cursor: pointer;
+
+}
+
 /* Active link */
 
 
 /* Change background header */
 
+/*=============== HEADER & NAV===============*/
+
 
 /*=============== HOME ===============*/
 
+.home_section{
+
+  width: 100%;
+  height: 562px;
+  /* background: url("papre_wrap.jpg"); */
+  background: white;
+  color: black;
+
+}
+
+.left{
+
+  width: 55%;
+  height: 562px;
+  float: left;
+  display: grid;
+  place-items: center;
+
+}
+
+.right{
+
+  width: 45%;
+  height: 562px;
+  float: left;
+  display: grid;
+  place-items: center;
+
+}
+
+.leftdiv{
+
+  width: 80%;
+  height: 80%;
+
+}
+
+.btn{
+
+  width: 100%;
+  height: 35px;
+
+}
+
+.rightdiv{
+
+  width: 80%;
+  height: 80%;
+
+}
+
+.leftdiv h2{
+
+  font-size: 40px;
+  margin-top: 125px;
+
+}
+
+.leftdiv button{
+
+  width: 150px;
+  padding: 5px 0px;
+  background: transparent;
+  letter-spacing: 1px;
+  border: solid 2px;
+
+}
+
+.btn button:hover{
+
+  cursor: pointer;
+
+}
+
+.vrc-logo{
+
+  width: 100%;
+  height: 80%;
+
+}
+
+.vrc-text{
+
+  width: 100%;
+  height: 20%;
+  margin-top: -100px;
+  font-size: 21px;
+  letter-spacing: 1px;
+
+}
+
+.vrc-text h2{
+
+  text-align: center;
+
+}
+
+.vrc-text p{
+
+  font-size: 10px;
+  text-align: center;
+
+}
 
 /*=============== BUTTONS ===============*/
 
